@@ -1,5 +1,5 @@
 # w6_go_2
-🎬 Movie Collection CRUD API in Go 🎥<br/>
+# 🎬 Movie Collection CRUD API in Go 🎥<br/>
 This is a simple CRUD (Create, Read, Update, Delete) application built in Go to manage a collection of movies. The application uses the built-in net/http package to create and manage movies with fields like Title, Director, Year, and Genre. 🚀<br/>
 ✨ Features<br/>
 * Create a new movie in the collection.<br/>
@@ -10,7 +10,7 @@ No external libraries are used in this application, making it lightweight and ea
 
 ---
 
-🛠️ Setup<br/>
+# 🛠️ Setup<br/>
 1. clone the repo
    ```
       git clone https://github.com/aravindak21/w6_go_2.git
@@ -24,8 +24,8 @@ No external libraries are used in this application, making it lightweight and ea
    
 ---
 
-📋 Endpoints<br/>
-1️⃣ Create a Movie<br/>
+# 📋 Endpoints<br/>
+## 1️⃣ Create a Movie<br/>
 Method: POST<br/>
 Endpoint: /movies<br/>
 Description: Create a new movie by providing the title, director, year, and genre.<br/>
@@ -56,7 +56,7 @@ What It Does: It decodes the incoming JSON request, assigns an auto-incremented 
 
 ---
 
-2️⃣ Get All Movies<br/>
+## 2️⃣ Get All Movies<br/>
 Method: GET<br/>
 Endpoint: /movies<br/>
 Description: Retrieves the entire list of movies in the collection.<br/>
@@ -76,7 +76,7 @@ What It Does: It encodes and returns the entire movies slice as a JSON array.<br
 
 ---
 
-3️⃣ Get a Movie by ID<br/>
+## 3️⃣ Get a Movie by ID<br/>
 Method: GET<br/>
 Endpoint: /movies/{id}<br/>
 Description: Retrieves a single movie by its ID from the collection.<br/>
@@ -107,7 +107,7 @@ What It Does: It extracts the movie ID from the URL, searches the *movies* slice
 
 ---
 
-4️⃣ Update a Movie<br/>
+## 4️⃣ Update a Movie<br/>
 Method: PUT<br/>
 Endpoint: /movies/{id}<br/>
 Description: Updates an existing movie's details (Title, Director, Year, Genre) based on its ID.<br/>
@@ -141,7 +141,7 @@ What It Does: It decodes the updated movie details from the request body and upd
 
 ---
 
-5️⃣ Delete a Movie<br/>
+## 5️⃣ Delete a Movie<br/>
 Method: DELETE<br/>
 Endpoint: /movies/{id}<br/>
 Description: Deletes a movie from the collection based on its ID.<br/>
@@ -184,7 +184,7 @@ Code Snippet:
 
 ---
 
-🚀 Running the Application<br/>
+# 🚀 Running the Application<br/>
 1. Make sure you have Go installed.<br/>
 2. Clone the repository, and run the application:
 ```
