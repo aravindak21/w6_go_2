@@ -168,7 +168,7 @@ What It Does: It removes the movie with the matching ID from the movies slice an
 
 ---
 
-⚙️ Helper Functions<br/>
+# ⚙️ Helper Functions<br/>
 extractID Function<br/>
 This helper function extracts the movie ID from the URL path. It splits the URL and converts the ID part from a string to an integer.<br/>
 Code Snippet:
