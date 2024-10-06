@@ -7,6 +7,9 @@ This is a simple CRUD (Create, Read, Update, Delete) application built in Go to 
 * Update the details of an existing movie.<br/>
 * Delete a movie from the collection by its ID.<br/>
 No external libraries are used in this application, making it lightweight and easy to understand. 😎<br/>
+
+---
+
 🛠️ Setup<br/>
 1. clone the repo
    ```
